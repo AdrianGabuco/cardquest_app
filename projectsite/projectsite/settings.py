@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-bu6$(on$7=4o61$#bu^cz)&^b3gb6g#-5*6&zz_q(*vj62)z81
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['eyyyd.pythonanywhere.com']
+ALLOWED_HOSTS = ['eyyyyd.pythonanywhere.com']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'cardquest',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
